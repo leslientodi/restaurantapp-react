@@ -14,7 +14,7 @@ export default function Home() {
             <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center">
               <h2 className="mb-0 text-black fw-bold">Welcome to</h2>
               <h1 className="mb-5 text-black fw-bold text-center text-sm-start">
-                React Restaurant
+                Gladys Restaurant
               </h1>
               <MenuBtn />
             </div>
