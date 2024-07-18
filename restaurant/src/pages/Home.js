@@ -4,6 +4,8 @@ import "./Home.css";
 //import AboutImg from
 import { Link } from "react-router-dom";
 import ImageGallery from "../components/ImageGallery";
+import { ContactInfo } from "../components/ContactInfo";
+//import ContactImage from "../"
 
 export default function Home() {
   return (
@@ -92,6 +94,18 @@ export default function Home() {
         </div>
       </div>
       <ImageGallery />
+      <div className="bg-dark text-light py-5 shadow">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 d-flex flex-column align-items-center justify-content-center mb-5 mb-lg-0">
+              <ContactInfo />
+            </div>
+            <div className="col-lg-6 d-flex justify-content-center">
+              <img src="" className="img-fluid w-50 " alt=""></img>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
